@@ -8,10 +8,10 @@
         <div class="ud-contact-content-wrapper">
           <div class="ud-contact-title mb-12 lg:mb-[150px]">
             <span class="mb-6 block text-base font-medium text-dark dark:text-white">
-              CONTACT US
+              Contact Us
             </span>
             <h2 class="max-w-[260px] text-[35px] leading-[1.14] font-semibold text-dark dark:text-white">
-              Let's talk about your problem.
+              Let us know if you want to donate, volunteer, or apply for a device.
             </h2>
           </div>
           <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -27,7 +27,7 @@
               <div>
                 <h5 class="mb-[18px] text-lg font-semibold text-dark dark:text-white">Our Location</h5>
                 <p class="text-base text-body-color dark:text-dark-6">
-                  401 Broadway, 24th Floor, Orchard Cloud View, London
+                  Grand Rapids, MI
                 </p>
               </div>
             </div>
@@ -40,9 +40,8 @@
               </div>
               <div>
                 <h5 class="mb-[18px] text-lg font-semibold text-dark dark:text-white">How Can We Help?</h5>
-                <p class="text-base text-body-color dark:text-dark-6">info@yourdomain.com</p>
                 <p class="text-base text-body-color dark:text-dark-6 mt-1">
-                  contact@yourdomain.com
+                  nickstambaugh@proton.me
                 </p>
               </div>
             </div>
@@ -57,7 +56,7 @@
           <h3 class="mb-8 text-2xl font-semibold md:text-[28px] md:leading-[1.42] text-dark dark:text-white">
             Send us a Message
           </h3>
-          <form>
+          <form action="https://formspree.io/f/xpwakglp" method="POST">
             <div class="mb-[22px]">
               <label for="fullName" class="block text-sm text-body-color dark:text-dark-6 mb-4">Full Name*</label>
               <input type="text" name="fullName" placeholder="Adam Gelius"
@@ -73,9 +72,22 @@
               <input type="text" name="phone" placeholder="+885 1254 5211 552"
                 class="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 border-0 border-b border-[#f1f1f1] dark:border-dark-3 pb-3 focus:border-primary focus:outline-none" />
             </div>
+            <div class="mb-[22px]">
+              <label for="requestType" class="block text-sm text-body-color dark:text-dark-6 mb-4">Type of Request*</label>
+              <select name="requestType" id="requestType"
+                class="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 border-0 border-b border-[#f1f1f1] dark:border-dark-3 py-2 focus:border-primary focus:outline-none">
+                <option value="" disabled selected>Select an option</option>
+                <option value="generalInquiry">General Inquiry</option>
+                <option value="volunteering">Volunteering</option>
+                <option value="pickup">Pickup Request</option>
+                <option value="donation">Donation</option>
+                <option value="feedback">Feedback</option>
+                <option value="partnership">Partnership</option>
+              </select>
+            </div>
             <div class="mb-[30px]">
               <label for="message" class="block text-sm text-body-color dark:text-dark-6 mb-4">Message*</label>
-              <textarea name="message" rows="1" placeholder="type your message here"
+              <textarea name="message" rows="4" placeholder="Type your message here"
                 class="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 resize-none border-0 border-b border-[#f1f1f1] dark:border-dark-3 pb-3 focus:border-primary focus:outline-none"></textarea>
             </div>
             <div class="mb-0">
@@ -84,7 +96,7 @@
                 Send
               </button>
             </div>
-          </form>
+          </form>          
         </div>
       </div>
     </div>
