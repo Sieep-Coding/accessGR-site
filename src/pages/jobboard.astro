@@ -3,6 +3,9 @@ import Breadcrumb from '../components/layout/Breadcrumb.astro';
 import Layout from '../layouts/Layout.astro';
 import JobBoard from '../components/JobBoard.astro';
 import AboveContact from '../components/AboveContact.astro';
+import Team from '../components/Team.astro';
+import Contactsection from '../components/Contactsection.astro';
+import CTAsection from '../components/CTAsection.astro';
 ---
 
 <Layout
@@ -12,6 +15,9 @@ import AboveContact from '../components/AboveContact.astro';
   <Breadcrumb>
     <Fragment slot="title">Job Board</Fragment>
   </Breadcrumb>
-  <AboveContact />
   <JobBoard />
+  <AboveContact />
+  <CTAsection />
+  <Team />
+  <Contactsection />
 </Layout>
