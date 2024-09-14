@@ -1,5 +1,10 @@
-# accessGR - The Grand Rapids Non-Profit for Recycled Devices.  
-Play Astro is a fantastic free and open-source Astro template, built for startups, SaaS companies, apps, businesses, and more. With its premium design and comprehensive range of essential components and pages, it's your all-in-one solution for launching a full-fledged website.
+# accessGR - The Grand Rapids Non-Profit for Recycled Devices.
+
+Welcome to the accessGR GitHub page! AccessGR is a Grand Rapids non-profit dedicated to providing refurbished laptops, tech support, and digital resources to bridge the digital divide in our community.
+
+### Getting Started with Astro
+
+Use these commands:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -10,8 +15,9 @@ Play Astro is a fantastic free and open-source Astro template, built for startup
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-### 📄 License for Play Astro Template
-Play Astro is an open-source template and you are free to utilize it for both personal and commercial projects without the need for any attribution or backlink.
+### 📄 License 
+
+See [LICENSE](https://)
 
 ### 💖 How to Support
 You can demonstrate your support for this project by giving a Star ⭐ to this repository and sharing it with your friends. 
