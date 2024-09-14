@@ -17,7 +17,7 @@ Use these commands:
 
 ### 📄 License 
 
-See [LICENSE](https://)
+See [LICENSE](https://github.com/Sieep-Coding/accessGR-site/blob/main/LICENSE)
 
 ### 💖 How to Support
 You can demonstrate your support for this project by giving a Star ⭐ to this repository and sharing it with your friends. 
