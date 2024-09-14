@@ -2,12 +2,15 @@
 import Breadcrumb from '../components/layout/Breadcrumb.astro';
 import Layout from '../layouts/Layout.astro';
 import Contactsection from '../components/Contactsection.astro';
+import About from './about.astro';
+import Aboutsection from '../components/Aboutsection.astro';
 ---
 
 <Layout
-  description="Play Astro is a free and open-source Astro template, built for SaaS, startup, business and software website. Play crafted in a way that you can use with almost all sort of web project."
-  title="Contact | Play Astro"
+  description="AccessGR provides refurbished laptops, tech support, and digital resources to help low-income communities gain access to technology and opportunities."
+  title="Contact | AccessGR"
 >
+  <Aboutsection />
   <Breadcrumb>
     <Fragment slot="title">Contact Page</Fragment>
   </Breadcrumb>
