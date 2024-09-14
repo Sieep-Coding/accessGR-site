@@ -1,0 +1,57 @@
+---
+// Job Data (Replace this with your actual data or an API call)
+const jobs = [
+  {
+    title: "IT Specialist",
+    company: "Tech Solutions Inc.",
+    location: "Grand Rapids, MI",
+    description: "Assist with technical support and system administration.",
+    link: "#",
+  },
+  {
+    title: "Non-Profit Coordinator",
+    company: "AccessGR",
+    location: "Grand Rapids, MI",
+    description: "Oversee daily operations and volunteer coordination.",
+    link: "#",
+  },
+  {
+    title: "Web Developer",
+    company: "InnovateTech",
+    location: "Remote",
+    description: "Build and maintain websites and web applications.",
+    link: "#",
+  },
+];
+---
+
+<section class="job-board py-10 bg-light dark:bg-dark">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center text-dark dark:text-white mb-8">
+      Job Openings
+    </h2>
+
+    <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      {jobs.map((job) => (
+        <div class="job-card p-6 bg-white dark:bg-dark-2 shadow-lg rounded-lg">
+          <h3 class="text-3xl font-bold text-center text-dark dark:text-white mb-8  ">{job.title}</h3>
+          <p class="text-sm text-body-color mb-1">
+            <strong>Company:</strong> {job.company}
+          </p>
+          <p class="text-sm text-body-color mb-1">
+            <strong>Location:</strong> {job.location}
+          </p>
+          <p class="text-sm text-body-color mb-4">
+            {job.description}
+          </p>
+          <a
+            href={job.link}
+            class="inline-block bg-primary text-white py-2 px-4 rounded-md hover:bg-blue-dark"
+          >
+            Apply Now
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

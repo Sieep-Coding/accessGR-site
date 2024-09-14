@@ -1,0 +1,17 @@
+---
+import Breadcrumb from '../components/layout/Breadcrumb.astro';
+import Layout from '../layouts/Layout.astro';
+import JobBoard from '../components/JobBoard.astro';
+import AboveContact from '../components/AboveContact.astro';
+---
+
+<Layout
+  description="AccessGR provides refurbished laptops, tech support, and digital resources to help low-income communities gain access to technology and opportunities."
+  title="Local Jobs"
+>
+  <Breadcrumb>
+    <Fragment slot="title">Job Board</Fragment>
+  </Breadcrumb>
+  <AboveContact />
+  <JobBoard />
+</Layout>
