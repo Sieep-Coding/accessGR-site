@@ -1,5 +1,7 @@
 # AccessGR - The Grand Rapids Non-Profit for Recycled Devices.
 
+![License: UNLICENSE](https://img.shields.io/badge/License-UNLICENSE-blue.svg)
+
 Welcome to the accessGR GitHub page! AccessGR is a Grand Rapids non-profit dedicated to providing refurbished laptops, tech support, and digital resources to bridge the digital divide in our community.
 
 ### Getting Started with Astro
