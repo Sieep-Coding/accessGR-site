@@ -14,6 +14,8 @@ function scrollTo(element, to = 0, duration = 500) {
 
     if (currentTime < duration) {
       setTimeout(animateScroll, increment);
+    } else {
+      element.scrollTop = to; // Ensure it ends exactly at the target position
     }
   };
 
