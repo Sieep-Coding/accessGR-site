@@ -1,3 +1,4 @@
+![accessGR-site](https://socialify.git.ci/Sieep-Coding/accessGR-site/image?description=1&font=Source%20Code%20Pro&name=1&pattern=Charlie%20Brown&stargazers=1&theme=Dark)
 # AccessGR - The Grand Rapids Non-Profit for Recycled Devices.
 
 [![License: UNLICENSE](https://img.shields.io/badge/License-UNLICENSE-blue.svg)](https://github.com/Sieep-Coding/accessGR-site/blob/main/LICENSE)
